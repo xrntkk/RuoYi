@@ -105,5 +105,5 @@ jobs:
     - name: Upload CodeQL database
       uses: actions/upload-artifact@v4
       with:
-        name: codeql-database-${{ matrix.language }}
-        path: ${{ github.workspace }}/codeql_databases/${{ matrix.language }}
+        name: codeql-database-ruoyi4.8.1-${{ matrix.language }}
+        path: /home/runner/work/_temp/codeql_databases/
